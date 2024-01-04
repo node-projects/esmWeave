@@ -1,0 +1,23 @@
+{
+  "name": "esmweave",
+  "version": "1.0.0",
+  "description": "bundler for esm code and html files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/jest/bin/jest.js",
+    "run": "node --inspect-brk ./run.mjs",
+    "tsc": "tsc"
+  },
+  "type": "module",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@node-projects/node-html-parser-esm": "^6.2.0",
+    "esprima-next": "^6.0.0",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  }
+}
